@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { useState } from "react"
 import { useLanguage } from "./language-context"
+import { FreshnessTimeline } from "./freshness-timeline"
 
 const nutrition = {
   calories: 172,
@@ -283,7 +284,10 @@ export function ShopPage() {
               {s.headline}
             </h1>
             <p className="text-xs tracking-[0.25em] uppercase text-muted-foreground mb-8">{s.sub}</p>
-            <p className="text-base leading-relaxed text-muted-foreground mb-10 max-w-md">{s.desc}</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-6 max-w-md">{s.desc}</p>
+
+            {/* Freshness timeline */}
+            <FreshnessTimeline />
 
             {/* Size selector */}
             <div className="mb-8">
