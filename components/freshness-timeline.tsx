@@ -1,6 +1,6 @@
 "use client";
 
-import { useLanguage } from "./language-context";
+import { useLanguage } from "@/lib/language-context";
 
 const HARVEST_CONFIG = {
   year: 2026,

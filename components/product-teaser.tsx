@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { useLanguage } from "./language-context"
+import { useLanguage } from "@/lib/language-context"
 
 const t = {
   tr: {

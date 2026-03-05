@@ -1,4 +1,4 @@
-import { LanguageProvider } from "@/components/language-context"
+import { LanguageProvider } from "@/lib/language-context"
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
 import { BrandStory } from "@/components/brand-story"

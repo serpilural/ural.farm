@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useState } from "react"
-import { useLanguage } from "./language-context"
+import { useLanguage } from "@/lib/language-context"
 import { FreshnessTimeline } from "./freshness-timeline"
 
 const nutrition = {

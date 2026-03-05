@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useLanguage } from "./language-context"
+import { useLanguage } from "@/lib/language-context"
 
 const t = {
   tr: {

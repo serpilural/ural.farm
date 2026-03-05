@@ -1,5 +1,5 @@
 import { ShopPage } from "@/components/shop-page"
-import { LanguageProvider } from "@/components/language-context"
+import { LanguageProvider } from "@/lib/language-context"
 import { Navbar } from "@/components/navbar"
 import { CookieBanner } from "@/components/cookie-banner"
 import type { Metadata } from "next"

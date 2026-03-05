@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { useLanguage } from "./language-context"
+import { useLanguage } from "@/lib/language-context"
 import { UralLogo } from "./ural-logo"
 
 const t = {

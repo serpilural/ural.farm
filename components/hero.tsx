@@ -1,6 +1,6 @@
 "use client"
 
-import { useLanguage } from "./language-context"
+import { useLanguage } from "@/lib/language-context"
 
 const t = {
   tr: {
